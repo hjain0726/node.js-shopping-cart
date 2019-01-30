@@ -1,6 +1,6 @@
 var Product=require('../models/product');
 var mongoose=require('mongoose');
-mongoose.connect('mongodb://test:test@ds131687.mlab.com:31687/shopping');
+mongoose.connect('connect to your db');
 var products=[
   new Product({
   imagePath:'https://upload.wikimedia.org/wikipedia/en/5/5e/Gothiccover.png',

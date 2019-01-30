@@ -11,7 +11,7 @@ var passport=require('passport');
 var flash=require('connect-flash');
 var validator=require('express-validator');
 var MongoStore=require('connect-mongo')(session);
-mongoose.connect('mongodb://test:test@ds131687.mlab.com:31687/shopping');
+mongoose.connect('connect to your db');
 var routes = require('./routes/index');
 var userRoutes=require('./routes/user');
 var app = express();
